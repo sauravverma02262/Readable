@@ -1,0 +1,118 @@
+.posts {
+  margin: 20px; }
+  .posts > div {
+    margin-bottom: 15px; }
+  .posts .post-action-buttons button {
+    width: 36px;
+    height: 36px; }
+  .posts .add-comment {
+    padding: 15px 10px 5px 10px;
+    border-top: 1px solid black; }
+    .posts .add-comment div {
+      float: left; }
+    .posts .add-comment input {
+      padding: 6px 15px;
+      margin: 0 10px;
+      border: none;
+      outline: none;
+      width: 80%;
+      border-bottom: 1px dotted black; }
+    .posts .add-comment button {
+      padding: 5px 10px;
+      background: steelblue;
+      color: white;
+      border-radius: 6px; }
+    .posts .add-comment .avatar {
+      width: 30px;
+      height: 30px;
+      font-size: 16px; }
+  .posts .action-box {
+    margin-top: 20px; }
+    .posts .action-box > button {
+      padding: 6px 15px;
+      margin: 10px;
+      width: auto;
+      font-size: 14px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      outline: none; }
+      .posts .action-box > button > span > span {
+        top: -28px;
+        right: -16px; }
+
+.comments-box {
+  margin: 10px; }
+  .comments-box .comment {
+    border-left: 4px solid teal;
+    border-bottom: 1px dotted black;
+    padding: 10px;
+    margin-bottom: 4px;
+    min-height: 50px; }
+    .comments-box .comment .author-details > div {
+      display: inline-block; }
+    .comments-box .comment .author-details .avatar {
+      width: 60px;
+      float: left; }
+    .comments-box .comment .author-details > div.author-name {
+      margin-top: -5px;
+      vertical-align: top;
+      width: 90%;
+      font-size: 14px;
+      padding-left: 10px;
+      color: rgba(0, 0, 0, 0.3); }
+      .comments-box .comment .author-details > div.author-name button.vote {
+        float: right;
+        margin: 0px;
+        padding: 2px;
+        font-size: 16px !important;
+        width: 36px !important;
+        height: 36px !important; }
+      .comments-box .comment .author-details > div.author-name .MuiSvgIcon-root-20 {
+        font-size: 16px !important;
+        width: 16px !important;
+        height: 16px !important; }
+      .comments-box .comment .author-details > div.author-name .com-body {
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.6);
+        width: 90%;
+        height: 100%; }
+
+.inputFields {
+  width: 100%; }
+
+.button-submit {
+  margin-top: 15px !important;
+  float: right;
+  width: 100%;
+  color: white !important;
+  background: teal !important; }
+
+.community .addPost {
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: lime;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0px 3px 10px black;
+  transition: all .3s ease-in-out; }
+  .community .addPost:hover {
+    box-shadow: 0px 1px 5px black; }
+
+.sort-action-button {
+  width: 200px;
+  padding: 10px 15px;
+  margin-top: 30px; }
+  .sort-action-button.active {
+    background: green; }
+
+.post-category {
+  background: yellow;
+  color: black;
+  padding: 3px 10px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 1px solid lime; }

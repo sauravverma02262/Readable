@@ -1,0 +1,13 @@
+export const BASE_HOST = 'http://localhost:3001/'
+export const HEADER_TITLE = 'HEADER_TITLE'
+export const APP_TITLE = 'Communities'
+export const FETCH_CATEGORY = 'FETCH_CATEGORY'
+export const GET_POST = 'GET_POST'
+export const GET_COMMENT_FOR_POST = 'GET_COMMENT_FOR_POST'
+export const ADD_COMMENT_FOR_POST = 'ADD_COMMENT_FOR_POST'
+export const SORT_POST_BY = 'SORT_POST_BY'
+export const UPDATE_POST =  'UPDATE_POST'
+export const DELETE_POST = 'DELETE_POST'
+export const GET_POST_BY_ID = 'GET_POST_BY_ID'
+export const GET_COMMENT_OBJECT = 'GET_COMMENT_OBJECT'
+export const HEADERS = {headers: {'Authorization': 'new', 'Content-Type':'application/json'}}

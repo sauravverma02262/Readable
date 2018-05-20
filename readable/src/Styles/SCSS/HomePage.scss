@@ -1,0 +1,32 @@
+.categories {
+  .tab-style {
+    padding: 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    outline: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    border-bottom: 4px solid black;
+    transition: all .3s ease-in-out;
+    &:hover {
+      background: teal;
+      color: white;
+    }
+    &:focus {
+      background: lime;
+    }
+    &:active {
+      background: lime;
+
+    }
+    &.active {
+      background: teal;
+      color:white;
+      border-bottom: 4px solid red;
+    }
+  }
+}
